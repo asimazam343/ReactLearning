@@ -15,8 +15,6 @@ const ExpenseForm = () => {
     setUserInput({
       ...userInput,
       enteredTitle:event.target.value,
-     
-      console.log(setUserInput);
     });
   };
 
