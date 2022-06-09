@@ -1,11 +1,13 @@
-import ExpenseItem from './components/NewExpense/ExpenseItem';
-
-
+import React from "react";
+// import UseState from "./Hooks/UseState";
+// import UseEffect from "./Hooks/UseEffect";
+// import UseReducer from "./Hooks/UseReducer";
+import Todo from "./components/basic/todoreact/todo";
 const App = () => {
   return (
-    <div className="App">
-    <ExpenseItem/>
-    </div>
+    <>
+      <Todo/>
+    </>
   );
 }
 
